@@ -63,28 +63,12 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
-
-
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-
 <!-- Features -->
-
-### Key Features <a name="key-features"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link] wil be posted when available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +107,7 @@ After you're finished please remove all the comments and instructions!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Donmark2k/vet-clinic/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,6 +118,7 @@ Feel free to check the [issues page](../../issues/).
 > Write a message to encourage readers to support your project
 
 If you like this project...
+- Give it a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
