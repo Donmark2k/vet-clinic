@@ -62,13 +62,21 @@ After you're finished please remove all the comments and instructions!
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
+### Key Features <a name="key-features"></a>
+
+ <li>  Vet clinic database</li>
+  <li>Animals table</li>
+  <li>Querying data</li>
+  <li>Species column</li>
+
 
 <!-- Features -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
+## 🚀 Live Demo <a name="live-demo"></a>
+`No deployment for this project`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,15 +84,51 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+To run on your localhost clone the project to local folder
+
+- copy [this link](https://github.com/Donmark2k/vet-clinic.git).
+- get the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write git clone git@github.com:Donmark2k/vet-clinic.git
+- go to the repository folder in your command prompt cd vet-clinic
+
+
+
+### Setup
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Prerequisites
 
+In order to run this project you only need:
+
+- Have a local version control like git install on your computer
+- Have an account and sign in on GitHub, as online/remote version control system
+- Have a pgAdmin and postgress app installed on your computer
+
+### Install
+
+To install this project in your local machine use
+
+- Clone the git repo using this command: `https://github.com/Donmark2k/vet-clinic.git`
+
+### Usage
+
+To run the project, execute the following command:
+
+  - 1 create vet_clinic database
+  - 2 Run  Queries.sql
+  - 3 to insert data into the table run data.sql
+  - 4 execute queries
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Run tests
+`No test for this project`
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
  👤**Chukwuemeka Ochuba**
 
@@ -97,6 +141,8 @@ After you're finished please remove all the comments and instructions!
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
+- I will query the name in ascending order
+- I will add more animals to the table
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
