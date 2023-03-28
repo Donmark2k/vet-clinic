@@ -62,6 +62,15 @@ After you're finished please remove all the comments and instructions!
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
+### Key Features <a name="key-features"></a>
+
+ <li>  Vet clinic database</li>
+  <li>Animals table</li>
+  <li>Querying data</li>
+  <li>Species column</li>
+
+
+Species column
 
 <!-- Features -->
 
