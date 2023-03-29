@@ -24,3 +24,4 @@ name VARCHAR(100) NOT NULL);
 
 
 ALTER TABLE animals DROP COLUMN species
+ALTER TABLE animals ADD COLUMN species_id INT, ADD CONSTRAINT fk_species_id FOREIGN KEY (species_id) REFERENCES species(id);
