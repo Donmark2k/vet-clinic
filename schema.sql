@@ -36,6 +36,7 @@ ALTER TABLE animals ADD CONSTRAINT animals_id_unique UNIQUE (id);
 
 CREATE TABLE visits ( id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, animal_id INT REFERENCES animals(id),	vet_id INT REFERENCES vets(id),	date_of_graduation DATE );
 
+ALTER TABLE visits RENAME COLUMN date_of_graduation TO date_of_visit;
 
 
 
