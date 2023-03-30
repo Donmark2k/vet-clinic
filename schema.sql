@@ -32,6 +32,7 @@ CREATE TABLE vets (id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,	name varchar
 	age INT NOT NULL, date_of_graduation DATE NOT NULL );
 
 CREATE TABLE specializations (  vet_id INTEGER REFERENCES vets(id),  species_id INTEGER REFERENCES species(id),  PRIMARY KEY (vet_id, species_id) );
+ALTER TABLE animals ADD CONSTRAINT animals_id_unique UNIQUE (id);
 
 
 
