@@ -30,7 +30,10 @@ ALTER TABLE animals ADD COLUMN owner_id INT, ADD CONSTRAINT fk_owner_id FOREIGN 
 
 CREATE TABLE vets (id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,	name varchar (100) NOT NULL,
 	age INT NOT NULL, date_of_graduation DATE NOT NULL );
-    
+
+CREATE TABLE specializations (  vet_id INTEGER REFERENCES vets(id),  species_id INTEGER REFERENCES species(id),  PRIMARY KEY (vet_id, species_id) );
+
+
 
 
 
