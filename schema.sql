@@ -26,3 +26,17 @@ name VARCHAR(100) NOT NULL);
 ALTER TABLE animals DROP COLUMN species
 ALTER TABLE animals ADD COLUMN species_id INT, ADD CONSTRAINT fk_species_id FOREIGN KEY (species_id) REFERENCES species(id);
 ALTER TABLE animals ADD COLUMN owner_id INT, ADD CONSTRAINT fk_owner_id FOREIGN KEY (owner_id) REFERENCES owners(id);
+
+
+CREATE TABLE vets (id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,	name varchar (100) NOT NULL,
+	age INT NOT NULL, date_of_graduation DATE NOT NULL );
+
+CREATE TABLE specializations (  vet_id INTEGER REFERENCES vets(id),  species_id INTEGER REFERENCES species(id),  PRIMARY KEY (vet_id, species_id) );
+ALTER TABLE animals ADD CONSTRAINT animals_id_unique UNIQUE (id);
+
+CREATE TABLE visits ( id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, animal_id INT REFERENCES animals(id),	vet_id INT REFERENCES vets(id),	date_of_graduation DATE );
+
+ALTER TABLE visits RENAME COLUMN date_of_graduation TO date_of_visit;
+
+
+
