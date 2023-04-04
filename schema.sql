@@ -38,5 +38,8 @@ CREATE TABLE visits ( id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, animal_id
 
 ALTER TABLE visits RENAME COLUMN date_of_graduation TO date_of_visit;
 
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
 
 
