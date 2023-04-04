@@ -170,6 +170,12 @@ To run the project, execute the following command:
 - Twitter: [@Donmark2k](https://twitter.com/donmark2k)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-ochuba/)
 
+👤 **mrprotocoll**
+
+- GitHub: [@mrprotocoll](https://github.com/mrprotocoll)
+- Twitter: [@dprotocoll](https://twitter.com/dprotocoll)
+- LinkedIn: [@mrprotocoll](https://www.linkedin.com/in/mrprotocoll)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
