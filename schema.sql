@@ -42,7 +42,7 @@ ALTER TABLE visits RENAME COLUMN date_of_graduation TO date_of_visit;
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 ALTER TABLE owners ALTER COLUMN age DROP NOT NULL;
 
-
+-- Create an index to increase the query search
 CREATE INDEX animals_id_desc ON visits (animal_id ASC);
 CREATE INDEX vet_id_desc ON visits (vet_id ASC);
 CREATE INDEX email_desc ON owners (email ASC);
