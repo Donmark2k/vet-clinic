@@ -40,6 +40,7 @@ ALTER TABLE visits RENAME COLUMN date_of_graduation TO date_of_visit;
 
 -- Add an email column to your owners table
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+ALTER TABLE owners ALTER COLUMN age DROP NOT NULL;
 
 
 
